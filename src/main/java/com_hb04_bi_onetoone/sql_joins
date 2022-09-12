@@ -1,0 +1,11 @@
+SELECT s.std_name,d.name FROM student04 s
+INNER JOIN diary02 d
+ON s.id = d.std_id
+
+SELECT s.std_name,d.name FROM student04 s
+LEFT JOIN diary02 d
+ON s.id = d.std_id
+
+SELECT s.std_name,d.name FROM student04 s
+RIGHT JOIN diary02 d
+ON s.id = d.std_id
