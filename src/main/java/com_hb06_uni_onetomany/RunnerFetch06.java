@@ -48,6 +48,7 @@ public class RunnerFetch06 {
 //		System.out.println(book);
 
 
+
 /*
 		String hqlQuery1="FROM Book06 b where b.id=101";
      	Book06 book= session.createQuery(hqlQuery1,Book06.class).uniqueResult();
